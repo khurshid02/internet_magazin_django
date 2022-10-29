@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="/follow" method="post">
+         {% csrf_token %}
+    <input type="text" class="form-control" placeholder="First name" name="firstname">
+
+    <input type="text" class="form-control" placeholder="Last Name" name="lastname">
+
+    <input type="email" class="form-control" placeholder="Email" name="email">
+
+      <input type="text" class="form-control" placeholder="Address" name="address">
+
+    <input type="text" class="form-control" placeholder="Oplata address" name="address_oplata">
+
+       <span> <button><img class="icons" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYC-Iz4uNdM_XPgZ7H0tR1cr1GyQVlshbCSQ&usqp=CAU"></button></span>
+   </form>
+</body>
+</html>
+
